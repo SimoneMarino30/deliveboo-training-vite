@@ -1,5 +1,9 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+import './styles/general.scss'
 
-createApp(App).mount('#app')
+// Import all of Bootstrap's JS
+import mojs from '@mojs/core'
+import * as bootstrap from 'bootstrap'
+import { router } from "./router.js"
+createApp(App).use(router).mount('#app')
