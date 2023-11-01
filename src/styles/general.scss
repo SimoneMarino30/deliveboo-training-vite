@@ -1,0 +1,10 @@
+// Import all of Bootstrap's CSS
+@use "./partials/utilities" as *;
+@use "./partials/header" as *;
+@use "./partials/jumbotron" as *;
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+    overflow-x: hidden;
+}
